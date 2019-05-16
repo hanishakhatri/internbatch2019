@@ -1,0 +1,95 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "library ={\n",
+    "    \"python core\":{\"book_id\":123,\"data_issue\":12/5/19,\"date_submission\":12/6/19,\"student_name\":\"rashi\",\"author_name\":\"van Russan\"}, \n",
+    "    \n",
+    "    \"java core\":{\"book_id\":13,\"data_issue\":11/4/19,\"date_submission\":11/5/19,\"student_name\":\"vartika\",\"author_name\":\"james gosling\"},\n",
+    "    \n",
+    "    \"java specification\":{\"book_id\":9119,\"data_issue\":10/3/19,\"date_submission\":10/4/19,\"student_name\":\"shubhiame\",\"author_name\":\"gilad bracha\"},\n",
+    "    \n",
+    "    \"C core\":{\"book_id\":1273,\"data_issue\":18/5/19,\"date_submission\":18/6/19,\"student_name\":\"samaya\",\"author_name\":\"Dennis ritchie\"},\n",
+    "    \n",
+    "    \"C++ core\":{\"book_id\":12993,\"data_issue\":12/1/19,\"date_submission\":12/2/19,\"student_name\":\"roma\",\"author_name\":\"Bjarne stroustrup\"},\n",
+    "       \n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'python core': {'book_id': 123, 'data_issue': 0.12631578947368421, 'date_submission': 0.10526315789473684, 'student_name': 'rashi', 'author_name': 'van Russan'}, 'java core': {'book_id': 13, 'data_issue': 0.14473684210526316, 'date_submission': 0.11578947368421054, 'student_name': 'vartika', 'author_name': 'james gosling'}, 'java specification': {'book_id': 9119, 'data_issue': 0.1754385964912281, 'date_submission': 0.13157894736842105, 'student_name': 'shubhiame', 'author_name': 'gilad bracha'}, 'C core': {'book_id': 1273, 'data_issue': 0.18947368421052632, 'date_submission': 0.15789473684210525, 'student_name': 'samaya', 'author_name': 'Dennis ritchie'}, 'C++ core': {'book_id': 12993, 'data_issue': 0.631578947368421, 'date_submission': 0.3157894736842105, 'student_name': 'roma', 'author_name': 'Bjarne stroustrup'}}\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(library)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'virat' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-5-042907cbefb8>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      1\u001b[0m cricket:{\n\u001b[1;32m----> 2\u001b[1;33m     \u001b[0mvirat\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m{\u001b[0m \u001b[1;34m\"runs\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m1000\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"matches\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m243\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"match_win\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m200\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"match_lost\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m43\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"six\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m70\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"four\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m66\u001b[0m\u001b[1;33m}\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[0;32m      3\u001b[0m     \u001b[0mMS\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mDhoni\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m{\u001b[0m \u001b[1;34m\"runs\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m1777\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"matches\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m302\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"match_win\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m209\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"match_lost\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m93\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"six\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m79\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"four\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m88\u001b[0m\u001b[1;33m}\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m      4\u001b[0m  \u001b[0msachin\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;33m{\u001b[0m \u001b[1;34m\"runs\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m1780\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"matches\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m307\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"match_win\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m274\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"match_lost\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m33\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"six\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m56\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"four\"\u001b[0m\u001b[1;33m:\u001b[0m\u001b[1;36m99\u001b[0m\u001b[1;33m}\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m      5\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'virat' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "cricket:{\n",
+    "    virat:{ \"runs\":1000,\"matches\":243,\"match_win\":200,\"match_lost\":43,\"six\":70,\"four\":66},\n",
+    "    MS.Dhoni:{ \"runs\":1777,\"matches\":302,\"match_win\":209,\"match_lost\":93,\"six\":79,\"four\":88},\n",
+    " sachin:{ \"runs\":1780,\"matches\":307,\"match_win\":274,\"match_lost\":33,\"six\":56,\"four\":99},\n",
+    "\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
