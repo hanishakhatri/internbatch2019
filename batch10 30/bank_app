@@ -1,0 +1,7 @@
+def pat1(rows):
+	for row in range(1,row+1):
+		print("*"*row)
+
+def pat2(rows):
+        for row in range(1,row+1):
+	                print("*"*row)
